@@ -1,0 +1,25 @@
+<div class="container" ng-controller="userController">
+  <h2>User Records</h2>
+  <table class="table responsive">
+    <thead>
+      <tr>
+        <th>Action</th>
+        <th>sr.no.</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Mobile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="user in userData">
+        <td><a href="sendSMS">Send SMS</a> / <a href="sendEmail">send Email</a></td>
+        <td>{{$index+1}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.age}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.mobile}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,28 @@
+{
+  "name": "koa-CRUD",
+  "description": "Basic CRUD demo with Koa.js",
+  "author": "shijuvar",
+  "version": "0.0.1",
+  "repository": "https://github.com/shijuvar/koa-CRUD",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "ckeditor": "^4.6.2",
+    "co-body": "0.0.1",
+    "co-views": "~0.1.0",
+    "jquery": "^3.2.1",
+    "koa": "~0.2.0",
+    "koa-logger": "~1.1.0",
+    "koa-route": "~1.0.2",
+    "koa-serve": "~0.1.7",
+    "koa-static": "^1.5.2",
+    "mongoose": "^4.9.10",
+    "moongoose": "0.0.5",
+    "swig": "~1.2.2",
+    "ui-router": "^1.0.0-alpha.3"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
+  }
+}

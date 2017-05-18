@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "description": "Basic CRUD demo with Koa.js",
+  "main": "index.js",
+  "authors": [
+    "shijuvar"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ckeditor": "^1.0.3",
+    "ckeditor": "^4.6.2",
+    "ckeditor-angularjs": "*"
+  }
+}

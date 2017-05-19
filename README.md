@@ -14,4 +14,3 @@ A simple CRUD demo for Koa.js and Node.js
 
 
 
-# templateTask

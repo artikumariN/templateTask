@@ -7,6 +7,12 @@ body {
   padding-top: 50px;
 }
 
+/*Model header color added*/
+
+.modal-header{
+  background: #31708f;
+  color: white
+}
 
 /*
  * Global add-ons

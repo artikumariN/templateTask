@@ -20,7 +20,7 @@ myApp.controller('userController',function($scope,$http){
     });
 });
 
-myApp.controller('templateController', function ($scope) {
+myApp.controller('templateController', function ($scope,$http) {
 
 
   // Editor options.
@@ -34,4 +34,21 @@ myApp.controller('templateController', function ($scope) {
   $scope.onReady = function () {
     // ...
   };
+
+  $scope.addTemplate=function(){
+    var name=$scope.name;
+    var data = CKEDITOR.instances.editor1.getData();
+
+    $http({
+          method : "post",
+          url   : "/addNewTemplate",
+          data  : {name: name}
+      }).then(function mySucces(response) {
+          console.log(response);
+      }, function myError(response) {
+          console.log(response);
+      });
+
+
+  }
 });
